@@ -1,5 +1,3 @@
-namespace AutoFinderDETRAN.Domain.Extensions
-{
     public static class DropdownExtension
     {
         public static List<GenericDropdownDTO> ToDropdown<T>(this List<T> list, string text, string value)
@@ -36,4 +34,3 @@ namespace AutoFinderDETRAN.Domain.Extensions
             Text = text;
         }
     }
-}
